@@ -1,0 +1,53 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/* --------------------------------  Nav bar CSS ---------------------------------------*/
+
+nav{
+  display: flex;
+  justify-content: end ;
+  align-items: center;
+  border-style: double;
+  padding: 30px 10%;
+  height: 100px;
+  background: #1e1c1c;
+}
+
+.nav-links{
+  list-style: none;
+
+}
+
+.nav-links li  {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-links li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f5f6f8;
+  text-decoration: none;
+
+}
+
+.nav-links li a {
+  transition: all 0.3 ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #1985a1;
+
+}
