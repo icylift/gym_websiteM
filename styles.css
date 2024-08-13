@@ -24,10 +24,10 @@ nav{
   display: flex;
   justify-content: end ;
   align-items: center;
-  border-style: double;
+  border-style: none;
   padding: 30px 10%;
-  height: 100px;
-  background: #1e1c1c;
+  height: 8vh;
+  background: #000000;
 }
 
 .nav-links{
@@ -68,6 +68,9 @@ nav{
   height: 100vh;
   border-style: solid;
   background-color: #b0afaf;
+  background-image: url(images/victor-freitas-vjkM-0m34KU-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .big-greeting{
@@ -75,17 +78,17 @@ nav{
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: bold;
   width: 100%;
   font-size: 150px;
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
 .hero-section form{
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  border-style: hidden;
 }
 
 .hero-button{
@@ -98,6 +101,8 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-style: solid;
+  background-color: aliceblue;
 
 }
 
@@ -119,9 +124,7 @@ nav{
   
 }
 
-.memberships h1{
 
-}
 
 .memberships div{
   display: flex;
